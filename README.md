@@ -1,5 +1,10 @@
 # DL_0base
-はじめてのDeep Learning
+ゼロから作るDeep Learning on Docker.
+* alpine:3.11
+* Python:3.8.2
+  * pip
+    * numpy
+    * matplotlib
 
 ## tags
 * [`latest`](https://github.com/Terfno/sbt-alpine/blob/master/Dockerfile)
