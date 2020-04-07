@@ -8,7 +8,10 @@ build:
 	@docker build -t ${INAME} .
 
 run:
-	docker run -it --name=${CNAME} ${INAME} sh
+	@docker run -it --name=${CNAME} ${INAME} sh
+
+exec:
+	@docker exec -it ${CNAME} sh
 
 # rm
 rm:
