@@ -2,7 +2,7 @@ INAME:=terfno/dlfs
 CNAME:=delefrsc
 
 dev:
-	@docker run -it python:3.8.2-alpine3.11 sh
+	@docker run -it --rm python:3.8.2-alpine3.11 sh
 
 build:
 	@docker build -t ${INAME} .
