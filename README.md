@@ -5,7 +5,6 @@
   * pip
     * numpy
     * matplotlib
-* XQuartz(for matplotlib gui)
 
 ## tags
 * [`latest`](https://github.com/Terfno/sbt-alpine/blob/master/Dockerfile)
